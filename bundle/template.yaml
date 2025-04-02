@@ -1,0 +1,10 @@
+//template.yaml
+version: 1
+type: pipeline-template
+
+name: template1
+description: template1
+parameters:
+  - name: aParam
+    type: string
+    displayName: "aParam"
