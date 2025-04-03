@@ -1,4 +1,5 @@
-type: catalog
 version: 1
-name: my-catalog  # This must match the catalog name in items.yaml
-description: My Pipeline Catalog
+type: pipeline-template-catalog
+
+name: my-catalog
+displayName: catalog
