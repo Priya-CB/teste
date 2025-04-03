@@ -1,5 +1,4 @@
+type: catalog
 version: 1
-type: pipeline-template-catalog
-
-name: customerPortalFrontendTeamCatalog
-displayName: Shared Template Catalog for Teams Working on the Customer Portal
+name: my-catalog  # This must match the catalog name in items.yaml
+description: My Pipeline Catalog
