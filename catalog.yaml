@@ -2,3 +2,4 @@ type: pipeline-template-catalog
 version: 1
 name: simple-pipeline-template-catalog  # Ensure this matches "catalog: my-catalog" in items.yaml
 description: My Pipeline Catalog
+displayName: My Pipeline Catalog
