@@ -1,10 +1,19 @@
-//template.yaml
-version: 1
 type: pipeline-template
+version: 1
 
-name: template1
-description: template1
+name: Simple
+description: Simple Gradle Git Pipeline
 parameters:
-  - name: aParam
+  - name: repoUrl
     type: string
-    displayName: "aParam"
+    displayName: Repository URL
+  - name: branchName
+    displayName: Branch Name
+    type: string
+    defaultValue: "main"
+  - name: gitCredentials
+    displayName: Git Credentials
+    type: credentials
+  - name: counter
+    displayName: Counter
+    type: number

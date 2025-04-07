@@ -1,18 +1,4 @@
-type: catalog
+type: pipeline-template-catalog
 version: 1
-name: my-catalog  # Ensure this matches "catalog: my-catalog" in items.yaml
+name: simple-pipeline-template-catalog  # Ensure this matches "catalog: my-catalog" in items.yaml
 description: My Pipeline Catalog
-
-templates:
-  - id: simple  # Matches "model: my-catalog/simple" in items.yaml
-    name: Simple Pipeline Template
-    description: A basic pipeline template
-    parameters:
-      - name: aParam
-        type: string
-        displayName: "aParam"
-    pipeline:
-      type: jenkinsfile
-      source:
-        type: file
-        path: templates/simple/jenkinsfile  # Ensure this exists
